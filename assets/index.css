@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif, "Times New Roman", Times, serif;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../assets/images/christina-wocintechchat-com-5DJ0VvLRSFE-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 7%;
+    padding-right: 7%;
+    box-sizing: border-box;
+    overflow: none;
+  }
+  
+  #slogan {
+    font-style: oblique;
+    color: brown;
+  }
+  
+  .name {
+    font-size: 50px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    border: 1px solid rgb(206, 137, 137);
+  }
+  
+  .namenav {
+    align-items: center;
+  }
+  
+  .navbar {
+    height: 10%;
+    align-items: center;
+    display: inline-flex;
+    position: absolute;
+    left: 70%;
+    padding: 20px;
+    top: -1%;
+  }
+  li a:hover {
+    color: black;
+  
+    background-color: red;
+  }
+  
+  li a {
+    color: black;
+  }
+  nav ul li {
+    list-style: none;
+    margin-left: 10%;
+  }
+  
+  nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 4;
+  }
+  
+  .biopic {
+    display: block;
+    border-radius: 40%;
+    position: absolute;
+    right: 65%;
+  }
+  
+  #slogan {
+    position: absolute;
+    left: 55%;
+    bottom: 85%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 25px;
+  
+    color: rgb(255, 255, 255);
+  }
+  
+  .about-me {
+    display: flex;
+    height: 80%;
+    align-content: center;
+  }
+  
+  .about-me-content {
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 19%;
+    right: 80%;
+    inline-size: 200px;
+    overflow-wrap: break-word;
+    hyphens: manual;
+    font-size: 20px;
+  }
+  p {
+    color: rgb(189, 189, 189);
+  }
+  h1 {
+    color: #fff;
+  }
+  
+  .projects-cards {
+    width: 200px;
+    height: 210px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 50px 30px;
+    background-image: url(../assets/images/domenico-loia-hGV2TfOh0ns-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+  }
+  .project-banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    flex-wrap: wrap;
+  }
+  .projects-cards:hover {
+    transform: translateY(-10px);
+  }
+  
+  h1 {
+    border-radius: 2px solid #999;
+  }
+  h5 {
+    color: rgb(22, 20, 20);
+    text-shadow: 0 0 5px #999;
+  }
+  
+  .projects-cards p {
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+  }
+  
+  .footercontact {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 150px;
+    display: grid;
+    grid-template-rows: 2fr 1rf;
+    align-content: center;
+  }
+  h6 {
+    font-style: italic;
+    font-weight: 16px;
+    font-size: xx-large;
+    color: rgb(12, 12, 12);
+    margin-left: 100px;
+  }
+  
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55acee;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
